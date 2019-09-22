@@ -7,6 +7,8 @@
 
 ## Example
 
+![Alt Text](https://github.com/guidosette/GFLoadingAnimationView/blob/master/example.GIF)
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
