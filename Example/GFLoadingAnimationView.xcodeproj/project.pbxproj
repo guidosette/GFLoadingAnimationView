@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		051B421F4810FD3FD32202B5 /* Pods_GFLoadingAnimationView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GFLoadingAnimationView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C56FF199949FCB2D976E4B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		406C10D2AF77084728980524 /* GFLoadingAnimationView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GFLoadingAnimationView.podspec; path = ../GFLoadingAnimationView.podspec; sourceTree = "<group>"; };
+		0C56FF199949FCB2D976E4B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		406C10D2AF77084728980524 /* GFLoadingAnimationView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GFLoadingAnimationView.podspec; path = ../GFLoadingAnimationView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		455886E418772F108319F303 /* Pods-GFLoadingAnimationView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFLoadingAnimationView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GFLoadingAnimationView_Example/Pods-GFLoadingAnimationView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5029D22E7B0B5FC1342CAA9E /* Pods-GFLoadingAnimationView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFLoadingAnimationView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GFLoadingAnimationView_Tests/Pods-GFLoadingAnimationView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GFLoadingAnimationView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFLoadingAnimationView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,7 +60,7 @@
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
-		60059728DF740D3EF0D71BB4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		60059728DF740D3EF0D71BB4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6D58BB65C24D4C23E41D94E2 /* Pods-GFLoadingAnimationView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFLoadingAnimationView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GFLoadingAnimationView_Tests/Pods-GFLoadingAnimationView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -248,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Guido Fanfani";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = Q8A3E6Y4L7;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -321,10 +325,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-GFLoadingAnimationView_Example/Pods-GFLoadingAnimationView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GFLoadingAnimationView/GFLoadingAnimationView.framework",
+				"${BUILT_PRODUCTS_DIR}/iOS-Color-Picker/iOS_Color_Picker.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GFLoadingAnimationView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOS_Color_Picker.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -504,6 +510,7 @@
 			baseConfigurationReference = 9C7DBA7FF2D71392A3DF4811 /* Pods-GFLoadingAnimationView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q8A3E6Y4L7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GFLoadingAnimationView/GFLoadingAnimationView-Prefix.pch";
 				INFOPLIST_FILE = "GFLoadingAnimationView/GFLoadingAnimationView-Info.plist";
@@ -520,6 +527,7 @@
 			baseConfigurationReference = 455886E418772F108319F303 /* Pods-GFLoadingAnimationView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q8A3E6Y4L7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GFLoadingAnimationView/GFLoadingAnimationView-Prefix.pch";
 				INFOPLIST_FILE = "GFLoadingAnimationView/GFLoadingAnimationView-Info.plist";

@@ -1,0 +1,6 @@
+framework module GFLoadingAnimationView {
+  umbrella header "GFLoadingAnimationView-umbrella.h"
+
+  export *
+  module * { export * }
+}

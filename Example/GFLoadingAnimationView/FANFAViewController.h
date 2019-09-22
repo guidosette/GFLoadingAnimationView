@@ -7,7 +7,8 @@
 //
 
 @import UIKit;
+#import "FCColorPickerViewController.h"
 
-@interface FANFAViewController : UIViewController
+@interface FANFAViewController : UIViewController<FCColorPickerViewControllerDelegate>
 
 @end
