@@ -1,6 +1,6 @@
 # GFLoadingAnimationView
 
-[![CI Status](https://img.shields.io/travis/Guido Fanfani/GFLoadingAnimationView.svg?style=flat)](https://travis-ci.org/Guido Fanfani/GFLoadingAnimationView)
+[![CI Status](https://img.shields.io/travis/guidosette/GFLoadingAnimationView.svg?style=flat)](https://travis-ci.org/guidosette/GFLoadingAnimationView)
 [![Version](https://img.shields.io/cocoapods/v/GFLoadingAnimationView.svg?style=flat)](https://cocoapods.org/pods/GFLoadingAnimationView)
 [![License](https://img.shields.io/cocoapods/l/GFLoadingAnimationView.svg?style=flat)](https://cocoapods.org/pods/GFLoadingAnimationView)
 [![Platform](https://img.shields.io/cocoapods/p/GFLoadingAnimationView.svg?style=flat)](https://cocoapods.org/pods/GFLoadingAnimationView)
