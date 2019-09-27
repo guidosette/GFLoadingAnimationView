@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
                          DESC
 
   s.homepage         = 'https://github.com/guidosette/GFLoadingAnimationView'
-  s.screenshots     = 'https://github.com/guidosette/GFLoadingAnimationView/blob/master/screenshot.jpeg'
+  s.screenshots     = 'https://github.com/guidosette/GFLoadingAnimationView/blob/master/screenshot.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Guido Fanfani' => 'guido.fanfani7@gmail.com' }
   s.source           = { :git => 'https://github.com/guidosette/GFLoadingAnimationView.git', :tag => s.version.to_s }
