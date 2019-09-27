@@ -13,7 +13,7 @@ DEPENDENCIES:
   - iOS-Color-Picker
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - FBSnapshotTestCase
     - iOS-Color-Picker
 
@@ -23,9 +23,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  GFLoadingAnimationView: 9e959f74c8a2ee08466b27555dd8edcbd36cca91
+  GFLoadingAnimationView: bd16bd928ee6cdd7d0a30625c7c5b8b18d2b0e4f
   iOS-Color-Picker: 4284a4d744a7cafe9d22d4b66eefc45342b80f1d
 
 PODFILE CHECKSUM: c9b9ed7b3ddcb0249f2f030be6fff54ef667f7e0
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.1

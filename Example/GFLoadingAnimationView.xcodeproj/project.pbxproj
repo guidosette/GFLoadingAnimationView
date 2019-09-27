@@ -323,7 +323,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-GFLoadingAnimationView_Example/Pods-GFLoadingAnimationView_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-GFLoadingAnimationView_Example/Pods-GFLoadingAnimationView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GFLoadingAnimationView/GFLoadingAnimationView.framework",
 				"${BUILT_PRODUCTS_DIR}/iOS-Color-Picker/iOS_Color_Picker.framework",
 			);
@@ -334,7 +334,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GFLoadingAnimationView_Example/Pods-GFLoadingAnimationView_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GFLoadingAnimationView_Example/Pods-GFLoadingAnimationView_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		887ED0553B7B09A4A566D576 /* [CP] Embed Pods Frameworks */ = {
@@ -343,7 +343,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-GFLoadingAnimationView_Tests/Pods-GFLoadingAnimationView_Tests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-GFLoadingAnimationView_Tests/Pods-GFLoadingAnimationView_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -352,7 +352,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GFLoadingAnimationView_Tests/Pods-GFLoadingAnimationView_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GFLoadingAnimationView_Tests/Pods-GFLoadingAnimationView_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DF6DE7A47AB4303113F9559F /* [CP] Check Pods Manifest.lock */ = {

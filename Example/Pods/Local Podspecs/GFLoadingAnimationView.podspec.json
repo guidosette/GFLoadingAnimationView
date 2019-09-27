@@ -1,9 +1,9 @@
 {
   "name": "GFLoadingAnimationView",
   "version": "0.1.0",
-  "summary": "A short description of GFLoadingAnimationView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/guidosette",
+  "summary": "Simple loading view configurable",
+  "description": "Simple loading animation view to block UI. Easy to use and configurable.",
+  "homepage": "https://github.com/guidosette/GFLoadingAnimationView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,16 +12,11 @@
     "Guido Fanfani": "guido.fanfani7@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Guido Fanfani/GFLoadingAnimationView.git",
+    "git": "https://github.com/guidosette/GFLoadingAnimationView.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "GFLoadingAnimationView/Classes/**/*",
-  "resource_bundles": {
-    "GFLoadingAnimationView": [
-      "GFLoadingAnimationView/Assets/*.png"
-    ]
-  }
+  "source_files": "GFLoadingAnimationView/Classes/**/*"
 }

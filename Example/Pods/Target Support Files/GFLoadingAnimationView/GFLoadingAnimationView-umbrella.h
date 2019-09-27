@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "AnimatedCircleUtility.h"
 #import "GFLoadingAnimationView.h"
 #import "GFSimpleSpinner.h"
 
