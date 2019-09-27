@@ -18,11 +18,11 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  Simple loading animation view to block UI. Easy to use and configurable.
+                         DESC
 
   s.homepage         = 'https://github.com/guidosette/GFLoadingAnimationView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://github.com/guidosette/GFLoadingAnimationView/blob/master/screenshot.jpeg'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Guido Fanfani' => 'guido.fanfani7@gmail.com' }
   s.source           = { :git => 'https://github.com/guidosette/GFLoadingAnimationView.git', :tag => s.version.to_s }
