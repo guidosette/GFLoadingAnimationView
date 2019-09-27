@@ -9,6 +9,8 @@
 
 ![Alt Text](https://github.com/guidosette/GFLoadingAnimationView/blob/master/photo.gif)
 
+Simple loading animation view to block UI. Easy to use and configurable.
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
