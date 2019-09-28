@@ -40,7 +40,7 @@
 
 /**
  Set circle size
- @param width spinner stroke. default: 7
+ @param width spinner stroke. default: 3
  */
 + (void)setSpinnerStrokeWidth:(float)width;
 

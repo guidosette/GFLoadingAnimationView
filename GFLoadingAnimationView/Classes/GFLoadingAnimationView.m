@@ -42,7 +42,7 @@
 		// defaults
 		circleSizeDefault = 100;
 		imageSizePercDefault = 0.4;
-		spinnerStrokeDefault = 7;
+		spinnerStrokeDefault = 3;
 		spinnerColorDefault = [UIColor grayColor];
 		circleBackgroundColor = [UIColor groupTableViewBackgroundColor];
 		
