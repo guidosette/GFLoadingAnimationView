@@ -25,20 +25,12 @@ pod 'GFLoadingAnimationView'
 
 ## How to use
 
-- #import "GFLoadingAnimationView.h"
-
-<br />
-Example:
-<br />
-```ruby
-
     #import "GFLoadingAnimationView.h"
     // show
 	[GFLoadingAnimationView showLoadingView];
 
     // hide
     [GFLoadingAnimationView hideLoadingView];
-    ```
 
 
 ## Author
