@@ -13,7 +13,6 @@ Simple loading animation view to block UI. Easy to use and configurable.
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
 
 ## Installation
 
@@ -23,6 +22,24 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'GFLoadingAnimationView'
 ```
+
+## How to use
+
+- #import "GFLoadingAnimationView.h"
+
+<br />
+Example:
+<br />
+```ruby
+
+    #import "GFLoadingAnimationView.h"
+    // show
+	[GFLoadingAnimationView showLoadingView];
+
+    // hide
+    [GFLoadingAnimationView hideLoadingView];
+    ```
+
 
 ## Author
 
