@@ -33,7 +33,7 @@ pod 'GFLoadingAnimationView'
     // hide
     [GFLoadingAnimationView hideLoadingView];
 
-Settings
+## Settings
 
     //	background
 	[GFLoadingAnimationView setCircleSize:100];
