@@ -26,11 +26,24 @@ pod 'GFLoadingAnimationView'
 ## How to use
 
     #import "GFLoadingAnimationView.h"
+
     // show
 	[GFLoadingAnimationView showLoadingView];
 
     // hide
     [GFLoadingAnimationView hideLoadingView];
+
+Settings
+
+    //	background
+	[GFLoadingAnimationView setCircleSize:100];
+	[GFLoadingAnimationView setCircleBackgroundColor:[UIColor groupTableViewBackgroundColor]];
+    //	spinner
+	[GFLoadingAnimationView setSpinnerStrokeColor:[UIColor grayColor]];
+	[GFLoadingAnimationView setSpinnerStrokeWidth:3];
+    //	image
+	[GFLoadingAnimationView setImageSizePerc:0.4];
+	[GFLoadingAnimationView setImage:[UIImage imageNamed:@"test"]];
 
 
 ## Author
