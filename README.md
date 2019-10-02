@@ -25,6 +25,7 @@ pod 'GFLoadingAnimationView'
 ```
 
 ## How to use
+GFLoadingAnimationView
 
     #import "GFLoadingAnimationView.h"
 
@@ -33,8 +34,19 @@ pod 'GFLoadingAnimationView'
 
     // hide
     [GFLoadingAnimationView hideLoadingView];
+    
+GFLoadingPercentualView
+
+    #import "GFLoadingPercentualView.h"
+
+    // show
+	[GFLoadingPercentualView showLoadingView];
+
+    // hide
+    [GFLoadingPercentualView hideLoadingView];
 
 ## Settings
+GFLoadingAnimationView
 
     //	background
 	[GFLoadingAnimationView setCircleSize:100];
@@ -46,6 +58,20 @@ pod 'GFLoadingAnimationView'
 	[GFLoadingAnimationView setImageSizePerc:0.4];
 	[GFLoadingAnimationView setImage:[UIImage imageNamed:@"test"]];
 
+GFLoadingPercentualView
+
+    //	background
+	[GFLoadingAnimationView setCircleSize:100];
+	[GFLoadingAnimationView setCircleBackgroundColor:[UIColor groupTableViewBackgroundColor]];
+    //	spinner
+	[GFLoadingAnimationView setSpinnerStrokeColor:[UIColor grayColor]];
+	[GFLoadingAnimationView setSpinnerStrokeWidth:3];
+    //	image
+	[GFLoadingAnimationView setImageSizePerc:0.4];
+	[GFLoadingAnimationView setImage:[UIImage imageNamed:@"test"]];
+    //	label
+	[GFLoadingPercentualView setLabelFontSize:20];
+	[GFLoadingPercentualView showLabel:false];
 
 ## Author
 
