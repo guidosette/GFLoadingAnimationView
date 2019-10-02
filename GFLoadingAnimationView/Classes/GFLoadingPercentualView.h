@@ -24,21 +24,21 @@
 + (float)currentProgress;
 
 /**
-Set show label
-@param show label or not. default: false
-*/
+ Set show label
+ @param show label or not. default: false
+ */
 + (void)showLabel:(bool)show;
 
 /**
-Set circle size
-@param color  of label. default: darkGrayColor
-*/
+ Set circle size
+ @param color  of label. default: darkGrayColor
+ */
 + (void)setLabelColor:(UIColor*)color;
 
 /**
-Set label font size size
-@param fontSize  of label. default: 12
-*/
+ Set label font size size
+ @param fontSize  of label. default: 12
+ */
 + (void)setLabelFontSize:(float)fontSize;
 
 /**

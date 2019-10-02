@@ -29,7 +29,7 @@
 - (void)setup:(CGRect)frame {
 	
 	spinnerStrokeDefault = 7;
-
+	
 	self.backgroundColor = [UIColor clearColor];
 	
 	circle = [CAShapeLayer layer];

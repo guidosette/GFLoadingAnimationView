@@ -1,8 +1,8 @@
 {
   "name": "GFLoadingAnimationView",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "summary": "Simple loading view configurable",
-  "description": "Simple loading animation view to block UI. Easy to use and configurable.",
+  "description": "Simple loading animation view to block UI. Easy to use and configurable.\nYou can also use GFLoadingPercentualView to show a loading with percentual status.",
   "homepage": "https://github.com/guidosette/GFLoadingAnimationView",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/guidosette/GFLoadingAnimationView.git",
-    "tag": "0.1.2"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "9.0"

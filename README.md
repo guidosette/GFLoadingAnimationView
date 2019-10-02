@@ -8,6 +8,7 @@
 ## Example
 
 ![Alt Text](https://github.com/guidosette/GFLoadingAnimationView/blob/master/photo.gif)
+![Alt Text](https://github.com/guidosette/GFLoadingAnimationView/blob/master/photo2.gif)
 
 Simple loading animation view to block UI. Easy to use and configurable.
 You can also use GFLoadingPercentualView to show a loading with percentual status.

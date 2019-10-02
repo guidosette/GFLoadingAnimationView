@@ -43,11 +43,11 @@
 	[self updateFrame:frame];
 	
 	circle.strokeEnd = 0;
-
+	
 }
 
 - (void)updateFrame:(CGRect)frame {
-
+	
 	float radius = frame.size.width/2-5;
 	circle.position = CGPointMake(CGRectGetMidX(self.bounds)-radius,
 								  CGRectGetMidY(self.bounds)-radius);
@@ -79,7 +79,7 @@
 }
 
 - (void)reset {
-    circle.strokeEnd = 0;
+	circle.strokeEnd = 0;
 }
 
 @end

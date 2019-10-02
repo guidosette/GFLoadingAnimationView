@@ -11,21 +11,21 @@
 @interface GFSimpleSpinner : UIView
 
 /**
-Set color of spinner
-@param color of spinner stroke. default: grayColor
-*/
+ Set color of spinner
+ @param color of spinner stroke. default: grayColor
+ */
 - (void)setStrokeColor:(UIColor*)color;
 
 /**
-Set spinner stroke
-@param width spinner stroke. default: 7
-*/
+ Set spinner stroke
+ @param width spinner stroke. default: 7
+ */
 - (void)setStrokeWidth:(float)width;
 
 /**
-Update spinner's frame
-@param frame of spinner
-*/
+ Update spinner's frame
+ @param frame of spinner
+ */
 - (void)updateFrame:(CGRect)frame;
 
 @end
