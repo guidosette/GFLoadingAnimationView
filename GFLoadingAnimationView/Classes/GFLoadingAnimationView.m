@@ -63,14 +63,6 @@
 		_circleView.layer.cornerRadius = sizeBackground/2;
 		[self addSubview:_circleView];
 		
-		// label
-		/*        UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.bounds), 100)];
-		 label.center = self.center;
-		 label.textAlignment = NSTextAlignmentCenter;
-		 label.textColor=[UIColor whiteColor];
-		 label.text = NSLocalizedString(@"loading", nil);
-		 [self addSubview:label]; */
-		
 		float sizeImage = sizeBackground*(_imageSizePerc != 0 ? _imageSizePerc : imageSizePercDefault);
 		_imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, sizeImage, sizeImage)];
 		_imageView.center = self.center;

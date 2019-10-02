@@ -11,6 +11,8 @@
 #endif
 
 #import "GFLoadingAnimationView.h"
+#import "GFLoadingPercentualView.h"
+#import "GFPercSpinner.h"
 #import "GFSimpleSpinner.h"
 
 FOUNDATION_EXPORT double GFLoadingAnimationViewVersionNumber;

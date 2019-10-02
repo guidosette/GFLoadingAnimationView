@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - GFLoadingAnimationView (0.1.0)
+  - GFLoadingAnimationView (0.1.2)
   - iOS-Color-Picker (1.2)
 
 DEPENDENCIES:
@@ -23,7 +23,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  GFLoadingAnimationView: bd16bd928ee6cdd7d0a30625c7c5b8b18d2b0e4f
+  GFLoadingAnimationView: 0fa55c36ad62651a41cba5d05a96097efb113dec
   iOS-Color-Picker: 4284a4d744a7cafe9d22d4b66eefc45342b80f1d
 
 PODFILE CHECKSUM: c9b9ed7b3ddcb0249f2f030be6fff54ef667f7e0

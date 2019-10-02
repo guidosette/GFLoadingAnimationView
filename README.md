@@ -10,6 +10,7 @@
 ![Alt Text](https://github.com/guidosette/GFLoadingAnimationView/blob/master/photo.gif)
 
 Simple loading animation view to block UI. Easy to use and configurable.
+You can also use GFLoadingPercentualView to show a loading with percentual status.
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 

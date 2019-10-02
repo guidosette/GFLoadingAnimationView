@@ -1,14 +1,45 @@
 //
-//  LoadingAnimationView.h
+//  GFLoadingPercentualView.h
 //  // Fanfa
 //
-//  Created by Guido Fanfani on 22/09/19.
+//  Created by Guido Fanfani on 01/10/19.
 //  Copyright © 2019 Fanfa. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import "GFLoadingAnimationView.h"
 
-@interface GFLoadingAnimationView : UIView
+@interface GFLoadingPercentualView : UIView
+
+/**
+ Update current progress
+ @param perc set current progress. Value is between [0,1]
+ */
++ (void)updateProgress:(float)perc;
+
+/**
+ Check current progress
+ @return Float that rappresents current progress. Default 0.
+ */
++ (float)currentProgress;
+
+/**
+Set show label
+@param show label or not. default: false
+*/
++ (void)showLabel:(bool)show;
+
+/**
+Set circle size
+@param color  of label. default: darkGrayColor
+*/
++ (void)setLabelColor:(UIColor*)color;
+
+/**
+Set label font size size
+@param fontSize  of label. default: 12
+*/
++ (void)setLabelFontSize:(float)fontSize;
 
 /**
  Show loading view

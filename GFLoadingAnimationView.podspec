@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GFLoadingAnimationView'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Simple loading view configurable'
 
 # This description is used to generate tags and improve search results.
@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
   Simple loading animation view to block UI. Easy to use and configurable.
+	You can also use GFLoadingPercentualView to show a loading with percentual status.
                          DESC
 
   s.homepage         = 'https://github.com/guidosette/GFLoadingAnimationView'

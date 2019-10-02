@@ -12,7 +12,9 @@
 
 @implementation GFSimpleSpinner {
 	CAShapeLayer *circle;
-	CABasicAnimation *drawAnimation;
+	
+	// defaults
+	float spinnerStrokeDefault;
 }
 
 - (instancetype)initWithFrame:(CGRect)frame {
@@ -26,13 +28,15 @@
 
 - (void)setup:(CGRect)frame {
 	
+	spinnerStrokeDefault = 7;
+
 	self.backgroundColor = [UIColor clearColor];
 	
 	circle = [CAShapeLayer layer];
 	circle.fillColor = [UIColor clearColor].CGColor;
 	circle.lineCap = kCALineCapRound;
 	circle.strokeColor = [UIColor grayColor].CGColor;
-	circle.lineWidth = 7; // 10
+	circle.lineWidth = spinnerStrokeDefault;
 	
 	float radius = frame.size.width/2-5;
 	circle.position = CGPointMake(CGRectGetMidX(self.bounds)-radius,
@@ -48,15 +52,6 @@
 	circle.path = [path CGPath];
 	circle.strokeEnd = 0.1;
 	[self.layer addSublayer:circle];
-	
-	//animation circle
-	drawAnimation = [CABasicAnimation animationWithKeyPath:@"strokeEnd"];
-	drawAnimation.duration            = 0.3;
-	drawAnimation.repeatCount         = 0.0;
-	drawAnimation.removedOnCompletion = NO;
-	drawAnimation.fromValue = [NSNumber numberWithFloat:0.0f];
-	drawAnimation.toValue   = [NSNumber numberWithFloat:1.0f];
-	drawAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn];
 	
 	[self startanimation];
 }

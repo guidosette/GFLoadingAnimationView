@@ -23,6 +23,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9924AC2943DB203B6DBCC3CB /* Pods_GFLoadingAnimationView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 051B421F4810FD3FD32202B5 /* Pods_GFLoadingAnimationView_Example.framework */; };
+		C5B1D2E42344C87A0074324B /* FANFAViewPercentualController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B1D2E32344C8790074324B /* FANFAViewPercentualController.m */; };
 		E4039E9481FD67BBBBEE3E4E /* Pods_GFLoadingAnimationView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9E59440EF3B215F0D09753 /* Pods_GFLoadingAnimationView_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C7DBA7FF2D71392A3DF4811 /* Pods-GFLoadingAnimationView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFLoadingAnimationView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GFLoadingAnimationView_Example/Pods-GFLoadingAnimationView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C5B1D2E22344C8790074324B /* FANFAViewPercentualController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FANFAViewPercentualController.h; sourceTree = "<group>"; };
+		C5B1D2E32344C8790074324B /* FANFAViewPercentualController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FANFAViewPercentualController.m; sourceTree = "<group>"; };
 		EA9E59440EF3B215F0D09753 /* Pods_GFLoadingAnimationView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GFLoadingAnimationView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -148,6 +151,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* FANFAViewController.h */,
 				6003F5A6195388D20070C39A /* FANFAViewController.m */,
+				C5B1D2E22344C8790074324B /* FANFAViewPercentualController.h */,
+				C5B1D2E32344C8790074324B /* FANFAViewPercentualController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -380,6 +385,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5B1D2E42344C87A0074324B /* FANFAViewPercentualController.m in Sources */,
 				6003F59E195388D20070C39A /* FANFAAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* FANFAViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

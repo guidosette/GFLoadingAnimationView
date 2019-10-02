@@ -8,34 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A276C700B9432747C2599C02C8DE54 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		046A28CCC5104C601AEC59B739CCDBD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875582A9959A516670EE99093641CD9F /* Foundation.framework */; };
 		0EA35026CD16CAAA3747E8BD86FD5206 /* FCColorSwatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E0A3BA5DE8699A18EDA4C38FF8C238 /* FCColorSwatchView.m */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA6A75E1680BD59A3CFEB804FB6DE52 /* UIApplication+StrictKeyWindow.m */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 625323D9E0E22CF012F3AFCC2110B235 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92754933B8DFAE87387343102A189489 /* QuartzCore.framework */; };
-		159A69626F52B95E00A34CC775F603ED /* GFSimpleSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D039ABC731AF2EEFBAD60E1044B99C /* GFSimpleSpinner.m */; };
 		1A24581D5B05180FC50951DEA75DC77D /* FCBrightDarkGradView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA79E014B367EB2F2E195DD5AE53AE84 /* FCBrightDarkGradView.m */; };
 		21905199F480BE862DC11094BB59E09E /* Pods-GFLoadingAnimationView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8D13C1303E0A38FE2A7D3547F41FC9 /* Pods-GFLoadingAnimationView_Example-dummy.m */; };
+		26E40160D4DB9417ABD16987E609554C /* GFLoadingAnimationView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7225EAB085E75CEEEB2B0561BD199352 /* GFLoadingAnimationView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28CA0DFD63E00BEDF07A9E4FF390CF06 /* FCColorPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B63DAAB1462C923ABF8D95EEE8A725 /* FCColorPickerViewController.xib */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 795336EC35823FF6549EB183F919987C /* UIImage+Compare.m */; };
-		37A268B44A2569523327175CB211B523 /* GFLoadingAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C1BB3B8107527315C500EF145373CE /* GFLoadingAnimationView.m */; };
-		3FE209E89C2EEF76D3E9987C6D3FBA1A /* GFLoadingAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 91BEC12468801A4B1C422421F646099E /* GFLoadingAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ECEA208E475FA161B245956D5795520 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4877B66CF6214BD403C43FCD9DF40A55 /* GFLoadingAnimationView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFD23948CB7348669923C1DF3CCFEA2 /* GFLoadingAnimationView-dummy.m */; };
-		506C67589CDB4F36A41A422FE127F8E5 /* GFLoadingAnimationView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8851315373CCB0CE572DD74E1E88858 /* GFLoadingAnimationView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50C06D7F497947DD56DCF88652F25BC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B06DF4E9B2BB66B84B8A243E1A65E7 /* CoreGraphics.framework */; };
+		51DFD1D8E948FA11EB9920DEB8AC8E93 /* GFLoadingPercentualView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA15DC9719C6E3FCB5DAAB7E792C7F6 /* GFLoadingPercentualView.m */; };
 		5B556769A93B653D3CAB17D6683192CD /* Pods-GFLoadingAnimationView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7D95EE5047B3FEBF53BA5CFE2023EC8 /* Pods-GFLoadingAnimationView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63EF13A740D23670D6CA1189FEE22858 /* GFSimpleSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 436865A31AB2C53AB66F1641E9EE3A6E /* GFSimpleSpinner.m */; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1AB8B579262011F649F8185D1408D77 /* XCTest.framework */; };
 		6B59FE424C7FE4E65E9D6D644E059C0C /* FCColorSwatchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8015C78A5CBD577BE0BFA7F4182A416F /* FCColorSwatchView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6CB38B20437CC148D48C1BEBA0ED8E38 /* Pods-GFLoadingAnimationView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFD64692BB9063A4DD3F9E71D9B2FAA3 /* Pods-GFLoadingAnimationView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D18E5B32E4D8516BEED77A769A3E85D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875582A9959A516670EE99093641CD9F /* Foundation.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF6B83065A92E0120A5FCC8CDDFE981 /* FBSnapshotTestCase-dummy.m */; };
-		77AC07B4031BBBD2EA50994890708F9C /* GFSimpleSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = 51FBA1CED061355C6AD8408FC2C2231C /* GFSimpleSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F23E9AD095E301F35958C81532883DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875582A9959A516670EE99093641CD9F /* Foundation.framework */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBADBC7E035A179D47A708ADA309470A /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 18173E6AAF1CF89982C5335E66147A7F /* FBSnapshotTestCase.m */; };
 		8F257CEA5E40BE6721C7363ADDAAFBAA /* iOS-Color-Picker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1E0A046D73DE5114058A1AC3710C28 /* iOS-Color-Picker-dummy.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 31D023AE5B2D394FE287E55CD841F789 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90DC40F80954E9BF7937AAC8B436BA60 /* GFPercSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F905E03D42930378A8B2078A273D3B /* GFPercSpinner.m */; };
 		9CECDFD39BF5F903A75809E8395325BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA63B6E10141DB4E1DD8723A70F8C1DB /* UIKit.framework */; };
 		9D1CB38BC476FE7022C6E95034A1AF1F /* colormap.png in Resources */ = {isa = PBXBuildFile; fileRef = 95E8F5456AC02756901E210C1402EC45 /* colormap.png */; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48057D42C648CE7B0D6867E686C39A31 /* SwiftSupport.swift */; };
@@ -45,17 +42,24 @@
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875582A9959A516670EE99093641CD9F /* Foundation.framework */; };
 		B28F1800F646916605B403F6007869BD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92754933B8DFAE87387343102A189489 /* QuartzCore.framework */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FBE71BED085BC37C451D96FC38A049E /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B92C6F12F30CAE749A2DBC2599DD5EF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875582A9959A516670EE99093641CD9F /* Foundation.framework */; };
+		B934DDBB7454BFD5F092091DE813AFF4 /* GFLoadingAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCCF81D049EF4DCA5B5D71F2AF8DA79 /* GFLoadingAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEB45C74436D9725C47F25686DF41A51 /* iOS-Color-Picker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 239B130E413CE3200AB0F84A32F2E120 /* iOS-Color-Picker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFDD5278259A9A0BF0BAAB61556425AC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0016C4C3408F08E89AD3A932DB338632 /* ReplaceMe.m */; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = FA51C956F92085E68E2602D835AA9762 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4A45E14814355C8A822A6F266B3836A /* FCColorPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EB97CD119F7358BAB8A421E98CA1AE2F /* FCColorPickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C96EF6027A4EF634619BC5B8ED9BD6A9 /* GFLoadingAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5AC1E835EB9AD48BC4FE1D4949BF35 /* GFLoadingAnimationView.m */; };
+		CBE69FC9382F757295CBFD5C2631218C /* GFLoadingAnimationView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7ECD749BFBA223C11E341875BADA5EC /* GFLoadingAnimationView-dummy.m */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 670A51F52109CD4B575490D1CD518986 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D5ADA8A1033743A3403B63D14A97B9DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875582A9959A516670EE99093641CD9F /* Foundation.framework */; };
+		DDAC8001A7E9F8547A72728CCE6703E0 /* GFLoadingPercentualView.h in Headers */ = {isa = PBXBuildFile; fileRef = 12E7A5AC0E229682234AC7F036C63908 /* GFLoadingPercentualView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA63B6E10141DB4E1DD8723A70F8C1DB /* UIKit.framework */; };
+		E76277276E4666109EF02AB520436446 /* GFSimpleSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = CF5C9898F8E490FD029446D7166A93A2 /* GFSimpleSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC902FD809F2EFD302D1404B2C32403 /* FBSnapshotTestCasePlatform.m */; };
 		EDE6973215770E7F0C9971AF31AFFAD6 /* FCColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 528ABBD3D2BE1BB3BEE683E549260453 /* FCColorPickerViewController.m */; };
-		F002E37F62404AEED5FD16325A160E1A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BCF36116003DD7BF75A7C8ECBE3854 /* ReplaceMe.m */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 0980A064339A8CE790006364D36CD2C1 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 978767F6AB105382099B8C9FBDBC3D69 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F962D3D981A68361E31BA5F5894B914B /* GFPercSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = 95EE20EB399DE1C90B73EB7AD404F47A /* GFPercSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,17 +94,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0016C4C3408F08E89AD3A932DB338632 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GFLoadingAnimationView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		025C372401D470607841225E34C4FA1A /* iOS-Color-Picker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iOS-Color-Picker-Info.plist"; sourceTree = "<group>"; };
 		069CE06140518DE299068FF7BCF05CE8 /* FCBrightDarkGradView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FCBrightDarkGradView.h; path = Private/FCBrightDarkGradView.h; sourceTree = "<group>"; };
 		0739658FBF31ADFB14C796D18F445F7D /* Pods-GFLoadingAnimationView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GFLoadingAnimationView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0980A064339A8CE790006364D36CD2C1 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		12E7A5AC0E229682234AC7F036C63908 /* GFLoadingPercentualView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFLoadingPercentualView.h; path = GFLoadingAnimationView/Classes/GFLoadingPercentualView.h; sourceTree = "<group>"; };
+		16F905E03D42930378A8B2078A273D3B /* GFPercSpinner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFPercSpinner.m; path = GFLoadingAnimationView/Classes/GFPercSpinner.m; sourceTree = "<group>"; };
 		18173E6AAF1CF89982C5335E66147A7F /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		196268F5E884531D8FC0CEE37F0671C0 /* Pods-GFLoadingAnimationView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GFLoadingAnimationView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1A6F60D49C822AD9FA56476AF1AB5725 /* Pods-GFLoadingAnimationView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GFLoadingAnimationView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1CC7A2F93EDC4314BF4A954D57224615 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1FBE71BED085BC37C451D96FC38A049E /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		22D7CC5F103C1ED05EFA72C30BC35651 /* GFLoadingAnimationView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GFLoadingAnimationView-Info.plist"; sourceTree = "<group>"; };
 		239B130E413CE3200AB0F84A32F2E120 /* iOS-Color-Picker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS-Color-Picker-umbrella.h"; sourceTree = "<group>"; };
 		24E0A3BA5DE8699A18EDA4C38FF8C238 /* FCColorSwatchView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FCColorSwatchView.m; path = Private/FCColorSwatchView.m; sourceTree = "<group>"; };
+		2C5AC1E835EB9AD48BC4FE1D4949BF35 /* GFLoadingAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFLoadingAnimationView.m; path = GFLoadingAnimationView/Classes/GFLoadingAnimationView.m; sourceTree = "<group>"; };
+		2FD41177F47416078A7AED90F9D74592 /* GFLoadingAnimationView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GFLoadingAnimationView.modulemap; sourceTree = "<group>"; };
 		31AFCC22E6421DD96D3AAF44576FBD8C /* GFLoadingAnimationView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GFLoadingAnimationView.framework; path = GFLoadingAnimationView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		31D023AE5B2D394FE287E55CD841F789 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		331824D8DE23AE696FFCA67E1F06A8F6 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
@@ -109,13 +118,11 @@
 		39CFC91D2B4D3AE3C296FAB5A998DD55 /* Pods-GFLoadingAnimationView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GFLoadingAnimationView_Tests.modulemap"; sourceTree = "<group>"; };
 		3B8D13C1303E0A38FE2A7D3547F41FC9 /* Pods-GFLoadingAnimationView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GFLoadingAnimationView_Example-dummy.m"; sourceTree = "<group>"; };
 		418D9EAAEC5EA1F3BD1123487014C52A /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		436865A31AB2C53AB66F1641E9EE3A6E /* GFSimpleSpinner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFSimpleSpinner.m; path = GFLoadingAnimationView/Classes/GFSimpleSpinner.m; sourceTree = "<group>"; };
 		43C59EF4A1126764444B07A958D87A97 /* Pods_GFLoadingAnimationView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GFLoadingAnimationView_Tests.framework; path = "Pods-GFLoadingAnimationView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48057D42C648CE7B0D6867E686C39A31 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		51FBA1CED061355C6AD8408FC2C2231C /* GFSimpleSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFSimpleSpinner.h; path = GFLoadingAnimationView/Classes/GFSimpleSpinner.h; sourceTree = "<group>"; };
 		528ABBD3D2BE1BB3BEE683E549260453 /* FCColorPickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FCColorPickerViewController.m; sourceTree = "<group>"; };
-		59C1BB3B8107527315C500EF145373CE /* GFLoadingAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFLoadingAnimationView.m; path = GFLoadingAnimationView/Classes/GFLoadingAnimationView.m; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E8C5EF17C0FD8FC4ED47258E10A04A9 /* GFLoadingAnimationView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GFLoadingAnimationView-prefix.pch"; sourceTree = "<group>"; };
 		602D37F1122E18D1C3396A244114DB74 /* iOS_Color_Picker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOS_Color_Picker.framework; path = "iOS-Color-Picker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61B63DAAB1462C923ABF8D95EEE8A725 /* FCColorPickerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = FCColorPickerViewController.xib; sourceTree = "<group>"; };
 		62432688C02002BFD79B53D0E918C46D /* Pods-GFLoadingAnimationView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GFLoadingAnimationView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -126,64 +133,65 @@
 		6A3AF26D88281FFDE2AD9AFDC6064826 /* Pods-GFLoadingAnimationView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GFLoadingAnimationView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		709EC61064B0FE933F9C80A42331CEF7 /* Pods-GFLoadingAnimationView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GFLoadingAnimationView_Example.modulemap"; sourceTree = "<group>"; };
 		711D645F96C79DF8B18211C9F5FAEFBC /* iOS-Color-Picker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS-Color-Picker-prefix.pch"; sourceTree = "<group>"; };
-		73BE1C90FD3DC8DE5ACE5B9D00B1B8DC /* GFLoadingAnimationView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GFLoadingAnimationView.xcconfig; sourceTree = "<group>"; };
+		7225EAB085E75CEEEB2B0561BD199352 /* GFLoadingAnimationView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GFLoadingAnimationView-umbrella.h"; sourceTree = "<group>"; };
 		795336EC35823FF6549EB183F919987C /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		79B4DAB5613B5AEF65B43E880252D912 /* GFLoadingAnimationView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GFLoadingAnimationView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7AF6B83065A92E0120A5FCC8CDDFE981 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		7D66009840A40A59454A713C2BB86DCF /* Pods-GFLoadingAnimationView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GFLoadingAnimationView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		8015C78A5CBD577BE0BFA7F4182A416F /* FCColorSwatchView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FCColorSwatchView.h; path = Private/FCColorSwatchView.h; sourceTree = "<group>"; };
 		8503F109B9AC4C4D99434EA9677778ED /* Pods-GFLoadingAnimationView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GFLoadingAnimationView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		875582A9959A516670EE99093641CD9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8ECEA208E475FA161B245956D5795520 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		91BEC12468801A4B1C422421F646099E /* GFLoadingAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFLoadingAnimationView.h; path = GFLoadingAnimationView/Classes/GFLoadingAnimationView.h; sourceTree = "<group>"; };
+		91046D9B6BA9E2F0BAD58FDC550E7858 /* GFLoadingAnimationView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GFLoadingAnimationView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		925834446179C60CF4919BF427956327 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		92754933B8DFAE87387343102A189489 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		95E8F5456AC02756901E210C1402EC45 /* colormap.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = colormap.png; path = Resources/colormap.png; sourceTree = "<group>"; };
+		95EE20EB399DE1C90B73EB7AD404F47A /* GFPercSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFPercSpinner.h; path = GFLoadingAnimationView/Classes/GFPercSpinner.h; sourceTree = "<group>"; };
 		978767F6AB105382099B8C9FBDBC3D69 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0D7AE0C060903CBD4D097D168FF0E3E /* GFLoadingAnimationView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GFLoadingAnimationView.xcconfig; sourceTree = "<group>"; };
 		A2BF1C66796640234803C6F360797011 /* Pods-GFLoadingAnimationView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GFLoadingAnimationView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ACC3D637B18892E42EB19FC145FBB379 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		AF4BEEE542B083F70B7CE053BFABBE8E /* iOS-Color-Picker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "iOS-Color-Picker.modulemap"; sourceTree = "<group>"; };
-		AFB8557EF5A82F594805572AD1952C72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		AFD64692BB9063A4DD3F9E71D9B2FAA3 /* Pods-GFLoadingAnimationView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GFLoadingAnimationView_Example-umbrella.h"; sourceTree = "<group>"; };
 		B1AB8B579262011F649F8185D1408D77 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B7D95EE5047B3FEBF53BA5CFE2023EC8 /* Pods-GFLoadingAnimationView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GFLoadingAnimationView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B92DAB404FE035C8F1258997F9422C40 /* iOS-Color-Picker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "iOS-Color-Picker.xcconfig"; sourceTree = "<group>"; };
 		BA79E014B367EB2F2E195DD5AE53AE84 /* FCBrightDarkGradView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FCBrightDarkGradView.m; path = Private/FCBrightDarkGradView.m; sourceTree = "<group>"; };
-		C48178E71C37A5160022E0C4B2F5CF7A /* GFLoadingAnimationView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GFLoadingAnimationView.modulemap; sourceTree = "<group>"; };
+		BA7E3A19DFFB944CF32B773445A056E2 /* GFLoadingAnimationView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GFLoadingAnimationView-prefix.pch"; sourceTree = "<group>"; };
+		BBCCF81D049EF4DCA5B5D71F2AF8DA79 /* GFLoadingAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFLoadingAnimationView.h; path = GFLoadingAnimationView/Classes/GFLoadingAnimationView.h; sourceTree = "<group>"; };
 		C4FF8C2AA4E4F770FF82F72CAC21F3D9 /* Pods-GFLoadingAnimationView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GFLoadingAnimationView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C7BCF36116003DD7BF75A7C8ECBE3854 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GFLoadingAnimationView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		CA63B6E10141DB4E1DD8723A70F8C1DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CF5C9898F8E490FD029446D7166A93A2 /* GFSimpleSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFSimpleSpinner.h; path = GFLoadingAnimationView/Classes/GFSimpleSpinner.h; sourceTree = "<group>"; };
+		D2C902FE1774201DC0DB1DF0C4F2D863 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DA30467E21B8943255CD8EDDA861B5A7 /* GFLoadingAnimationView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GFLoadingAnimationView-Info.plist"; sourceTree = "<group>"; };
 		DC1E0A046D73DE5114058A1AC3710C28 /* iOS-Color-Picker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOS-Color-Picker-dummy.m"; sourceTree = "<group>"; };
-		E0D039ABC731AF2EEFBAD60E1044B99C /* GFSimpleSpinner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFSimpleSpinner.m; path = GFLoadingAnimationView/Classes/GFSimpleSpinner.m; sourceTree = "<group>"; };
 		E4C235DEE53544D388A270C471421B7A /* Pods_GFLoadingAnimationView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GFLoadingAnimationView_Example.framework; path = "Pods-GFLoadingAnimationView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4C78518270D162EFCE8346B883E8B96 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E7ECD749BFBA223C11E341875BADA5EC /* GFLoadingAnimationView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GFLoadingAnimationView-dummy.m"; sourceTree = "<group>"; };
 		EAA6A75E1680BD59A3CFEB804FB6DE52 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		EB97CD119F7358BAB8A421E98CA1AE2F /* FCColorPickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FCColorPickerViewController.h; sourceTree = "<group>"; };
-		EDFD23948CB7348669923C1DF3CCFEA2 /* GFLoadingAnimationView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GFLoadingAnimationView-dummy.m"; sourceTree = "<group>"; };
 		F3A276C700B9432747C2599C02C8DE54 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		F44F5C7A43C4F291474CF2C7D0CE649F /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		F7D380817E51F4E92A8B9C4B94B172A6 /* Pods-GFLoadingAnimationView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GFLoadingAnimationView_Example-Info.plist"; sourceTree = "<group>"; };
-		F8851315373CCB0CE572DD74E1E88858 /* GFLoadingAnimationView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GFLoadingAnimationView-umbrella.h"; sourceTree = "<group>"; };
 		FA51C956F92085E68E2602D835AA9762 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		FBADBC7E035A179D47A708ADA309470A /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		FEC902FD809F2EFD302D1404B2C32403 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		FFA15DC9719C6E3FCB5DAAB7E792C7F6 /* GFLoadingPercentualView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFLoadingPercentualView.m; path = GFLoadingAnimationView/Classes/GFLoadingPercentualView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		308EF28611FF1ACC6C735F0358A666E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92C6F12F30CAE749A2DBC2599DD5EF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4ED8E579045970C5495AEE063D734F29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7F23E9AD095E301F35958C81532883DD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		999C121BE8089CAC9B93B7755B04FD22 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				046A28CCC5104C601AEC59B739CCDBD6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,16 +228,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0186F1186BB1D65039B9CEA0586C98E2 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				79B4DAB5613B5AEF65B43E880252D912 /* GFLoadingAnimationView.podspec */,
-				E4C78518270D162EFCE8346B883E8B96 /* LICENSE */,
-				AFB8557EF5A82F594805572AD1952C72 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		04F41DD6C09F8E82570A097D48BA9FE7 /* Pods-GFLoadingAnimationView_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,12 +245,33 @@
 			path = "Target Support Files/Pods-GFLoadingAnimationView_Example";
 			sourceTree = "<group>";
 		};
-		31C3B94DA2083A82BF011A7B4159B0DA /* Development Pods */ = {
+		27ECF23F13E7C0FB19323BFC574B1129 /* GFLoadingAnimationView */ = {
 			isa = PBXGroup;
 			children = (
-				4AF972F3E9DF86FC1A4360EC612B3606 /* GFLoadingAnimationView */,
+				BBCCF81D049EF4DCA5B5D71F2AF8DA79 /* GFLoadingAnimationView.h */,
+				2C5AC1E835EB9AD48BC4FE1D4949BF35 /* GFLoadingAnimationView.m */,
+				12E7A5AC0E229682234AC7F036C63908 /* GFLoadingPercentualView.h */,
+				FFA15DC9719C6E3FCB5DAAB7E792C7F6 /* GFLoadingPercentualView.m */,
+				95EE20EB399DE1C90B73EB7AD404F47A /* GFPercSpinner.h */,
+				16F905E03D42930378A8B2078A273D3B /* GFPercSpinner.m */,
+				CF5C9898F8E490FD029446D7166A93A2 /* GFSimpleSpinner.h */,
+				436865A31AB2C53AB66F1641E9EE3A6E /* GFSimpleSpinner.m */,
+				0016C4C3408F08E89AD3A932DB338632 /* ReplaceMe.m */,
+				31F95C65DC305BC9D33C6678C47780F6 /* Pod */,
+				4F000531CEA6FD89128D13BD5AD03095 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = GFLoadingAnimationView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		31F95C65DC305BC9D33C6678C47780F6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				91046D9B6BA9E2F0BAD58FDC550E7858 /* GFLoadingAnimationView.podspec */,
+				1CC7A2F93EDC4314BF4A954D57224615 /* LICENSE */,
+				D2C902FE1774201DC0DB1DF0C4F2D863 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		36D0491389786A1BAD1E44DC25EB6ECA /* Targets Support Files */ = {
@@ -314,19 +333,18 @@
 			path = "Target Support Files/Pods-GFLoadingAnimationView_Tests";
 			sourceTree = "<group>";
 		};
-		4AF972F3E9DF86FC1A4360EC612B3606 /* GFLoadingAnimationView */ = {
+		4F000531CEA6FD89128D13BD5AD03095 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				91BEC12468801A4B1C422421F646099E /* GFLoadingAnimationView.h */,
-				59C1BB3B8107527315C500EF145373CE /* GFLoadingAnimationView.m */,
-				51FBA1CED061355C6AD8408FC2C2231C /* GFSimpleSpinner.h */,
-				E0D039ABC731AF2EEFBAD60E1044B99C /* GFSimpleSpinner.m */,
-				C7BCF36116003DD7BF75A7C8ECBE3854 /* ReplaceMe.m */,
-				0186F1186BB1D65039B9CEA0586C98E2 /* Pod */,
-				9CB7F2FAC4845719D5555D1E3BBBB5F6 /* Support Files */,
+				2FD41177F47416078A7AED90F9D74592 /* GFLoadingAnimationView.modulemap */,
+				A0D7AE0C060903CBD4D097D168FF0E3E /* GFLoadingAnimationView.xcconfig */,
+				E7ECD749BFBA223C11E341875BADA5EC /* GFLoadingAnimationView-dummy.m */,
+				DA30467E21B8943255CD8EDDA861B5A7 /* GFLoadingAnimationView-Info.plist */,
+				BA7E3A19DFFB944CF32B773445A056E2 /* GFLoadingAnimationView-prefix.pch */,
+				7225EAB085E75CEEEB2B0561BD199352 /* GFLoadingAnimationView-umbrella.h */,
 			);
-			name = GFLoadingAnimationView;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GFLoadingAnimationView";
 			sourceTree = "<group>";
 		};
 		6E71F8248B0991D377B2B9236047AB16 /* SwiftSupport */ = {
@@ -351,18 +369,12 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		9CB7F2FAC4845719D5555D1E3BBBB5F6 /* Support Files */ = {
+		8B3D56606DBE67BB035351BB7F4A5C19 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C48178E71C37A5160022E0C4B2F5CF7A /* GFLoadingAnimationView.modulemap */,
-				73BE1C90FD3DC8DE5ACE5B9D00B1B8DC /* GFLoadingAnimationView.xcconfig */,
-				EDFD23948CB7348669923C1DF3CCFEA2 /* GFLoadingAnimationView-dummy.m */,
-				22D7CC5F103C1ED05EFA72C30BC35651 /* GFLoadingAnimationView-Info.plist */,
-				5E8C5EF17C0FD8FC4ED47258E10A04A9 /* GFLoadingAnimationView-prefix.pch */,
-				F8851315373CCB0CE572DD74E1E88858 /* GFLoadingAnimationView-umbrella.h */,
+				27ECF23F13E7C0FB19323BFC574B1129 /* GFLoadingAnimationView */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GFLoadingAnimationView";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A8D78CDD0AAC8D972700ECF0898DD5EE /* iOS-Color-Picker */ = {
@@ -437,7 +449,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				31C3B94DA2083A82BF011A7B4159B0DA /* Development Pods */,
+				8B3D56606DBE67BB035351BB7F4A5C19 /* Development Pods */,
 				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
 				4026A50B5BBB7A45030892D1809441DA /* Pods */,
 				3E2CCCDE77E43CD04E6946AA9EA15853 /* Products */,
@@ -459,13 +471,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		21E8C3A6726FE40A19B6EBD9C3EA57D6 /* Headers */ = {
+		108EBF4223745F666EBDC37A328D38B4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				506C67589CDB4F36A41A422FE127F8E5 /* GFLoadingAnimationView-umbrella.h in Headers */,
-				3FE209E89C2EEF76D3E9987C6D3FBA1A /* GFLoadingAnimationView.h in Headers */,
-				77AC07B4031BBBD2EA50994890708F9C /* GFSimpleSpinner.h in Headers */,
+				26E40160D4DB9417ABD16987E609554C /* GFLoadingAnimationView-umbrella.h in Headers */,
+				B934DDBB7454BFD5F092091DE813AFF4 /* GFLoadingAnimationView.h in Headers */,
+				DDAC8001A7E9F8547A72728CCE6703E0 /* GFLoadingPercentualView.h in Headers */,
+				F962D3D981A68361E31BA5F5894B914B /* GFPercSpinner.h in Headers */,
+				E76277276E4666109EF02AB520436446 /* GFSimpleSpinner.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,12 +586,12 @@
 		};
 		DC1F3B165279A964753E7674AEAA9BB6 /* GFLoadingAnimationView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DAB07FDC59DC07113D7204F43EBF24B /* Build configuration list for PBXNativeTarget "GFLoadingAnimationView" */;
+			buildConfigurationList = A22F96670EBAFBDD32576339FD8B76E0 /* Build configuration list for PBXNativeTarget "GFLoadingAnimationView" */;
 			buildPhases = (
-				21E8C3A6726FE40A19B6EBD9C3EA57D6 /* Headers */,
-				0751C42889A1DF511DD01C3C2F042195 /* Sources */,
-				999C121BE8089CAC9B93B7755B04FD22 /* Frameworks */,
-				176759078962C506DE4F348F883E8E0D /* Resources */,
+				108EBF4223745F666EBDC37A328D38B4 /* Headers */,
+				D8C327BF39E7ABA89FECDF0205C56E43 /* Sources */,
+				308EF28611FF1ACC6C735F0358A666E9 /* Frameworks */,
+				A29F6370059F539F7886F7258D72EB26 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -639,13 +653,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		176759078962C506DE4F348F883E8E0D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		39AF2CC78568E4245752FADDA6824A9C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -676,20 +683,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		0751C42889A1DF511DD01C3C2F042195 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		A29F6370059F539F7886F7258D72EB26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4877B66CF6214BD403C43FCD9DF40A55 /* GFLoadingAnimationView-dummy.m in Sources */,
-				37A268B44A2569523327175CB211B523 /* GFLoadingAnimationView.m in Sources */,
-				159A69626F52B95E00A34CC775F603ED /* GFSimpleSpinner.m in Sources */,
-				F002E37F62404AEED5FD16325A160E1A /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		2046FE0AB07CD39A46C3D4E9E46D08B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -733,6 +736,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D8C327BF39E7ABA89FECDF0205C56E43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE69FC9382F757295CBFD5C2631218C /* GFLoadingAnimationView-dummy.m in Sources */,
+				C96EF6027A4EF634619BC5B8ED9BD6A9 /* GFLoadingAnimationView.m in Sources */,
+				51DFD1D8E948FA11EB9920DEB8AC8E93 /* GFLoadingPercentualView.m in Sources */,
+				90DC40F80954E9BF7937AAC8B436BA60 /* GFPercSpinner.m in Sources */,
+				63EF13A740D23670D6CA1189FEE22858 /* GFSimpleSpinner.m in Sources */,
+				BFDD5278259A9A0BF0BAAB61556425AC /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -763,6 +779,37 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2E3B71E87A71899FD8726EC6EF411E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0D7AE0C060903CBD4D097D168FF0E3E /* GFLoadingAnimationView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GFLoadingAnimationView/GFLoadingAnimationView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GFLoadingAnimationView/GFLoadingAnimationView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GFLoadingAnimationView/GFLoadingAnimationView.modulemap";
+				PRODUCT_MODULE_NAME = GFLoadingAnimationView;
+				PRODUCT_NAME = GFLoadingAnimationView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		3604E13AAC4CCFAB2D17B54BEB8D2553 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B92DAB404FE035C8F1258997F9422C40 /* iOS-Color-Picker.xcconfig */;
@@ -983,9 +1030,9 @@
 			};
 			name = Debug;
 		};
-		9DD2132804B4A7508AFF126452096541 /* Debug */ = {
+		B1BE6ADA5E1618F2DDB209EED6ECD902 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73BE1C90FD3DC8DE5ACE5B9D00B1B8DC /* GFLoadingAnimationView.xcconfig */;
+			baseConfigurationReference = A0D7AE0C060903CBD4D097D168FF0E3E /* GFLoadingAnimationView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1009,10 +1056,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		BDB442D1163A521AE0529FAAF5FEF513 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1178,50 +1226,9 @@
 			};
 			name = Debug;
 		};
-		FB141611CA2EEB5E9B3AA1A12EB058E7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73BE1C90FD3DC8DE5ACE5B9D00B1B8DC /* GFLoadingAnimationView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GFLoadingAnimationView/GFLoadingAnimationView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GFLoadingAnimationView/GFLoadingAnimationView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GFLoadingAnimationView/GFLoadingAnimationView.modulemap";
-				PRODUCT_MODULE_NAME = GFLoadingAnimationView;
-				PRODUCT_NAME = GFLoadingAnimationView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0DAB07FDC59DC07113D7204F43EBF24B /* Build configuration list for PBXNativeTarget "GFLoadingAnimationView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9DD2132804B4A7508AFF126452096541 /* Debug */,
-				FB141611CA2EEB5E9B3AA1A12EB058E7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		26413B482272632FB9419EFB442D3E9B /* Build configuration list for PBXNativeTarget "Pods-GFLoadingAnimationView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1236,6 +1243,15 @@
 			buildConfigurations = (
 				916E0404255105F480DC4950B7625F7A /* Debug */,
 				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A22F96670EBAFBDD32576339FD8B76E0 /* Build configuration list for PBXNativeTarget "GFLoadingAnimationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3B71E87A71899FD8726EC6EF411E86 /* Debug */,
+				B1BE6ADA5E1618F2DDB209EED6ECD902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
