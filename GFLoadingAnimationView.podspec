@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
   Simple loading animation view to block UI. Easy to use and configurable.
-	You can also use GFLoadingPercentualView to show a loading with percentual status.
+	You can also use GFLoadingPercentualView to show a spinner with percentual status.
                          DESC
 
   s.homepage         = 'https://github.com/guidosette/GFLoadingAnimationView'
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Guido Fanfani' => 'guido.fanfani7@gmail.com' }
   s.source           = { :git => 'https://github.com/guidosette/GFLoadingAnimationView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+	s.social_media_url = 'https://twitter.com/Guidosette'
 
   s.ios.deployment_target = '9.0'
 
